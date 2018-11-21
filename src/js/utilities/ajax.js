@@ -1,7 +1,7 @@
 export const get = url => fetch(url, {
   method: 'GET',
   headers: {
-    Authorization: 'Token MDplNGE1NjAzYS1lYzZkLTExZTgtOGZlNy0zZjUyNTkwNGIyMDM6V091RWEzVkV0TXphVnBvM0szaENoY2hPZ2N1bjdtTVcwdzRC',
+    Authorization: 'Token MDphMjY4NWQxZS1lZDJlLTExZTgtODMyZi01Zjc3MWMzMzMyNzM6bGtibzFQcHpBWTVYbmRLdUJzaXZXSGFhNzZyS3JUcURja2tt',
   },
 }).then((response) => {
   if (response.ok) {
@@ -14,7 +14,7 @@ export const get = url => fetch(url, {
 export const post = (url, body) => fetch(url, {
   method: 'POST',
   headers: {
-    Authorization: 'Token MDplNGE1NjAzYS1lYzZkLTExZTgtOGZlNy0zZjUyNTkwNGIyMDM6V091RWEzVkV0TXphVnBvM0szaENoY2hPZ2N1bjdtTVcwdzRC',
+    Authorization: 'Token MDphMjY4NWQxZS1lZDJlLTExZTgtODMyZi01Zjc3MWMzMzMyNzM6bGtibzFQcHpBWTVYbmRLdUJzaXZXSGFhNzZyS3JUcURja2tt',
   },
   body: JSON.stringify(body),
 }).then((response) => {
