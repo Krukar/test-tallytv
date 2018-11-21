@@ -1,0 +1,11 @@
+.search {
+  &__column {
+    flex: 1;
+  }
+
+  &__row {
+    @include medium {
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+   "extends": "stylelint-config-standard",
+   "plugins": [
+      "stylelint-order"
+   ],
+   "rules": {
+      "at-rule-no-unknown": [
+         true,
+         {
+            "ignoreAtRules": [
+              "content",
+              "extend",
+              "for",
+              "function",
+              "include",
+              "mixin",
+              "return"
+            ]
+         }
+      ],
+      "declaration-empty-line-before": null,
+      "order/order": [
+        "at-variables",
+        "declarations",
+        "rules",
+        {
+          "type": "at-rule",
+          "name": "include",
+          "parameter": "small"
+        },
+        {
+          "type": "at-rule",
+          "name": "include",
+          "parameter": "medium"
+        },
+        {
+          "type": "at-rule",
+          "name": "include",
+          "parameter": "large"
+        },
+        {
+          "type": "at-rule",
+          "name": "include",
+          "parameter": "xlarge"
+        }
+      ],
+      "order/properties-order": [
+         {
+            "emptyLineBefore": "never",
+            "properties": [
+               "content",
+               "display",
+               "flex",
+               "visibility"
+            ]
+         },
+         {
+            "emptyLineBefore": "always",
+            "properties": [
+               "position",
+               "top",
+               "left",
+               "right",
+               "bottom"
+            ]
+         },
+         {
+            "emptyLineBefore": "always",
+            "properties": [
+               "height",
+               "max-height",
+               "width",
+               "max-width",
+               "margin",
+               "margin-top",
+               "margin-left",
+               "margin-right",
+               "margin-bottom",
+               "padding",
+               "padding-top",
+               "padding-left",
+               "padding-right",
+               "padding-bottom",
+            ]
+         },
+         {
+            "emptyLineBefore": "always",
+            "properties": [
+               "border",
+               "border-top",
+               "border-left",
+               "border-right",
+               "border-bottom",
+               "border-radius",
+               "border-color",
+               "outline"
+            ]
+         },
+         {
+            "emptyLineBefore": "always",
+            "properties": [
+               "background",
+               "color"
+            ]
+         },
+         {
+            "emptyLineBefore": "always",
+            "properties": [
+               "font-family",
+               "font-size",
+               "font-weight"
+            ]
+         },
+         {
+           "emptyLineBefore": "always",
+           "properties": [
+              "list-style"
+           ]
+         },
+         {
+            "emptyLineBefore": "always",
+            "properties": [
+               "cursor",
+               "opacity"
+            ]
+         }
+      ],
+      "property-no-unknown": [true, "ignoreProperties" : ["small", "medium", "large", "xlarge"]],
+      "selector-pseudo-class-no-unknown": [true, "ignorePseudoClasses" : ["export", "import"]]
+   }
+}
