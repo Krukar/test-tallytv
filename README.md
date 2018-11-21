@@ -17,3 +17,6 @@ Take home test involving LCBO api
 
 ## v1.0.4
 * Added price per user feedback
+
+## v1.0.5
+* Keep forgetting to reset the api key
