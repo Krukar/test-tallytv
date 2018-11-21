@@ -11,12 +11,15 @@ const Results = ({ handleClick, results }) => {
       return null;
     }
 
+    const price = (result.price_in_cents / 100).toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+
     return (
       <li key={result.id} className="results__item">
         <button className="results__button" type="button" onClick={() => handleClick(result.id)}>
           <img className="results__img" src={result.image_thumb_url} alt={result.tags} />
           <div className="results__name">{result.name}</div>
           <div className="results__package">{result.package}</div>
+          <div className="results__price">{price}</div>
         </button>
       </li>
     );

@@ -33,11 +33,13 @@
     opacity: 1;
   }
 
-  &__name {
+  &__name,
+  &__package {
     margin-bottom: rem(6);
   }
 
-  &__package {
+  &__package,
+  &__price {
     font-size: rem(14);
   }
 }

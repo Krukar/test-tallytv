@@ -14,3 +14,6 @@ Take home test involving LCBO api
 * Updated all calls to be HTTPS
 * Updated title
 * Changed placeholder to Hennessy because it's better
+
+## v1.0.4
+* Added price per user feedback

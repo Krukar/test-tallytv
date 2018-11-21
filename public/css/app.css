@@ -486,9 +486,9 @@ Components
     transition: all 0.25s cubic-bezier(0, 0, 0.5, 1); }
   .results__button:hover .results__img {
     opacity: 1; }
-  .results__name {
+  .results__name, .results__package {
     margin-bottom: 0.375rem; }
-  .results__package {
+  .results__package, .results__price {
     font-size: 0.875rem; }
 
 .stores {
