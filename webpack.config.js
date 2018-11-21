@@ -3,7 +3,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const StyleLintPlugin = require('stylelint-webpack-plugin')
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     app: './src/index.jsx'
   },

@@ -1,6 +1,6 @@
 {
   "name": "test-tallytv",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Take home test involving LCBO api",
   "engines": {
     "node": ">=8.10.0"

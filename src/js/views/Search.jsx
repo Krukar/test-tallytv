@@ -48,7 +48,7 @@ class Search extends Component {
       label: 'What product are you looking for?',
       handleChange: this.handleChange,
       name: 'search',
-      placeholder: 'Rickard\'s Red',
+      placeholder: 'Hennessy',
       required: true,
       type: 'text',
       value: search,
